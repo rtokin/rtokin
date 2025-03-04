@@ -1,0 +1,20 @@
+.text-block {
+  background-color: rgb(215.8369098712, 218.6566523605, 221.1630901288);
+  border-radius: 5px;
+  font-family: "Arial", sans-serif;
+}
+
+.custom-btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.custom-btn:hover {
+  background-color: rgb(0, 86.1, 178.5);
+}
+
+/*# sourceMappingURL=style.css.map */
