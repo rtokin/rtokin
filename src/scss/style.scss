@@ -1,0 +1,27 @@
+// Variables
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$font-stack: 'Arial', sans-serif;
+$btn-hover-color: darken($primary-color, 15%);
+
+// Text blocks
+.text-block {
+    background-color: lighten($secondary-color, 40%);
+    border-radius: 5px;
+    font-family: $font-stack;
+}
+
+// Button styles
+.custom-btn {
+    padding: 10px 20px;
+    background-color: $primary-color;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: $btn-hover-color;
+    }
+}
